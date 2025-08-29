@@ -1,6 +1,19 @@
 #!/bin/bash
-# git-menu.sh
-# Simple Git automation with menu
+# git-linux.sh
+# Git automation with menu
+# Reads PAT from external file for safe GitHub push
+
+GIT_USERNAME="rnr-roah"
+TOKEN_FILE="/home/roah/git-files/git-auth-token"
+
+# Check if token file exists
+if [ ! -f "$TOKEN_FILE" ]; then
+    echo "❌ Token file not found at $TOKEN_FILE"
+    exit 1
+fi
+
+# Read the token
+GIT_TOKEN=$(< "$TOKEN_FILE")
 
 # Ensure we are in a Git repository
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -8,6 +21,7 @@ if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
     exit 1
 fi
 
+echo "Username: $GIT_USERNAME"
 echo "Select an option:"
 echo "1. Pull"
 echo "2. Push"
@@ -15,7 +29,7 @@ echo "3. Pull + Push"
 echo "4. Reset + Clone"
 echo "5. Exit"
 
-read -p "Enter your choice (1-4): " choice
+read -p "Enter your choice (1-5): " choice
 
 case $choice in
     1)
@@ -24,32 +38,27 @@ case $choice in
         ;;
     2)
         read -p "Enter commit message: " msg
-        echo "➕ Adding all changes..."
         git add .
-        echo "💾 Committing..."
         git commit -m "$msg"
         echo "📤 Pushing..."
-        git push
+        git push https://$GIT_USERNAME:$GIT_TOKEN@$(git config --get remote.origin.url | sed -E 's#https?://##')
         ;;
     3)
         echo "🔄 Pulling latest changes first..."
         git pull
         read -p "Enter commit message: " msg
-        echo "➕ Adding all changes..."
         git add .
-        echo "💾 Committing..."
         git commit -m "$msg"
         echo "📤 Pushing..."
-        git push
+        git push https://$GIT_USERNAME:$GIT_TOKEN@$(git config --get remote.origin.url | sed -E 's#https?://##')
         ;;
     4)
-        echo "Deleting all the files and resetting the vault, are you sure? (enter for yes)"
+        echo "Deleting all the files and resetting the vault, are you sure? (press Enter for yes)"
         read enter
-        echo "Deleting all the files"
         cd ..
         sudo rm -r obsidian-vault
-        echo "Dowloading files"
-        git clone https://github.com/rnr-roah/obsidian-vault
+        echo "Downloading files"
+        git clone https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault
         cd obsidian-vault
         ;;
     5)

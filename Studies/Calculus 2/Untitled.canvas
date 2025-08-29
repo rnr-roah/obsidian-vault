@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"2bd72f32f260b5a3","type":"file","file":"Studies/Calculus 2/Untitled 1.md","x":200,"y":520,"width":400,"height":400},
+		{"id":"ca3dc8f39d095222","type":"link","url":"https://portfolio-rohitshah.weba.app","x":-3689,"y":3391,"width":400,"height":686,"color":"6"},
+		{"id":"03bce19728725eed","type":"file","file":"Studies/Calculus 2/Untitled.canvas","x":-4711,"y":920,"width":400,"height":360},
+		{"id":"81cbcc9303f12f7c","type":"text","text":"","x":200,"y":3621,"width":330,"height":912}
+	],
+	"edges":[
+		{"id":"73cba9fc745b4cbd","fromNode":"03bce19728725eed","fromSide":"right","toNode":"2bd72f32f260b5a3","toSide":"left"},
+		{"id":"3565b527156eb343","fromNode":"2bd72f32f260b5a3","fromSide":"bottom","toNode":"81cbcc9303f12f7c","toSide":"right"},
+		{"id":"03ee683903ae2003","fromNode":"ca3dc8f39d095222","fromSide":"left","toNode":"03bce19728725eed","toSide":"right"},
+		{"id":"98755f8d0eef0a39","fromNode":"ca3dc8f39d095222","fromSide":"top","toNode":"2bd72f32f260b5a3","toSide":"bottom","toEnd":"none"},
+		{"id":"2d9835021ecddda6","fromNode":"ca3dc8f39d095222","fromSide":"right","toNode":"81cbcc9303f12f7c","toSide":"right"}
+	]
+}

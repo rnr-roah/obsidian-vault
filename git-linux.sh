@@ -38,7 +38,7 @@ case $choice in
         ;;
     2)
         read -p "Enter commit message: " msg
-        git add *
+        git add .
         git commit -m "$msg"
         echo "📤 Pushing..."
         git push https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault.git

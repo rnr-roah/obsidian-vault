@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "1d05dce374cc93cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "585d7998393b3c30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "825a5595f16d4c3e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ac09bb0fe8de5f93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3165ecc9d04bd1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cf9037ebe5716e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "319c25ec8083644d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9a2be7742519935b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "40086b2941247bc2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b4bb616d4f5ac08a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e229053cd51fe817",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a80ae1c228c5a4a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a8dc2e6c4cd4494b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "451babb9124b7619",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "638a8d31c193959d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "ac09bb0fe8de5f93",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled.md",
+    "Studies/Chemistry/1.1 Significant Figures.md",
+    "Journal/The Perfect Battery That's too Dangerous.md",
+    "Journal/2025-08-29.md",
+    "Studies/Physics/Conversion.md",
+    "Journal/2025-08-27.md",
+    "Journal/2025-08-26 -Physics.md",
+    "Journal/2025-06-03.md",
+    "Notes/Untitled.md",
+    "Studies/Calculus 2/Untitled.canvas",
+    "Studies/Calculus 2/Untitled 1.md",
+    "Studies/Calculus 2/Untitled.md",
+    "Notes/Tuesday - 06-01-2025.md",
+    "Journal",
+    "Studies",
+    "Studies/Writing 2",
+    "2025-06-03.md",
+    "Studies/Chemistry",
+    "Self study/Communication foundation",
+    "Studies/Physics",
+    "Studies/Calculus 2",
+    "Notes",
+    "Untitled 1.canvas",
+    "2025-06-02.md",
+    "Untitled 5.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "test.md",
+    "Calculus 2.md",
+    "create a link.md",
+    "Welcome.md",
+    "2025-04-26.md",
+    "desktop.ini"
+  ]
+}

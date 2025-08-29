@@ -1,8 +1,6 @@
 # git-menu.ps1
 # Simple Git automation with menu
 
-# Navigate to your repo (update path if needed)
-Set-Location "C:\Path\To\Your\Repository"
 
 Write-Host "Select an option:" -ForegroundColor Yellow
 Write-Host "1. Pull" -ForegroundColor Cyan

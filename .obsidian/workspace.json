@@ -4,42 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "585d7998393b3c30",
+        "id": "e3ec582c0dc30e0e",
         "type": "tabs",
         "children": [
           {
-            "id": "825a5595f16d4c3e",
+            "id": "33670bc76a3edc83",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "ac09bb0fe8de5f93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.1 Significant Figures 27 Aug"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,16 +163,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ac09bb0fe8de5f93",
+  "active": "33670bc76a3edc83",
   "lastOpenFiles": [
-    "git-linux.sh~",
-    "updateobsidian~",
-    "updateobsidian",
+    "Untitled.canvas",
     "Journal/2025-08-29.md",
     "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
+    "updateobsidian~",
+    "git-linux.sh~",
+    "updateobsidian",
     "git-menu.ps1",
     "Untitled.md",
-    "Untitled.canvas",
     "Journal/The Perfect Battery That's too Dangerous.md",
     "Studies/Physics/Conversion.md",
     "Journal/2025-08-27.md",
@@ -212,7 +190,6 @@
     "Studies/Chemistry",
     "Self study/Communication foundation",
     "Studies/Physics",
-    "Studies/Calculus 2",
     "Untitled 1.canvas",
     "2025-06-02.md",
     "Untitled 5.canvas",

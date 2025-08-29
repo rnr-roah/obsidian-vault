@@ -1,2 +1,2 @@
-bash /home/roah/obsidian-vault/git-linux.sh
+alacritty -e /home/roah/obsidian-vault/git-linux.sh
 

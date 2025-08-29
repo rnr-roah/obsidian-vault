@@ -41,7 +41,8 @@ case $choice in
         git add .
         git commit -m "$msg"
         echo "📤 Pushing..."
-        git push https://$GIT_USERNAME:$GIT_TOKEN@$(git config --get remote.origin.url | sed -E 's#https?://##')
+        git push https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault.git
+
         ;;
     3)
         echo "🔄 Pulling latest changes first..."
@@ -50,7 +51,8 @@ case $choice in
         git add .
         git commit -m "$msg"
         echo "📤 Pushing..."
-        git push https://$GIT_USERNAME:$GIT_TOKEN@$(git config --get remote.origin.url | sed -E 's#https?://##')
+	git push https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault.git
+
         ;;
     4)
         echo "Deleting all the files and resetting the vault, are you sure? (press Enter for yes)"
@@ -58,7 +60,8 @@ case $choice in
         cd ..
         sudo rm -r obsidian-vault
         echo "Downloading files"
-        git clone https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault
+        git clone https://$GIT_USERNAME:$GIT_TOKEN@github.com/rnr-roah/obsidian-vault.git
+
         cd obsidian-vault
         ;;
     5)

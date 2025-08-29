@@ -11,10 +11,28 @@
             "id": "33670bc76a3edc83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1.1 Significant Figures 27 Aug"
+            }
+          },
+          {
+            "id": "c72d359f2653f4a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Significant Figures 27 Aug"
             }
           }
         ]
@@ -74,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b4bb616d4f5ac08a",
@@ -165,14 +184,15 @@
   },
   "active": "33670bc76a3edc83",
   "lastOpenFiles": [
+    "Studies/Chemistry/Significant Figures.md",
+    "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
+    "Untitled.md",
     "Untitled.canvas",
     "Journal/2025-08-29.md",
-    "Studies/Chemistry/1.1 Significant Figures 27 Aug.md",
     "updateobsidian~",
     "git-linux.sh~",
     "updateobsidian",
     "git-menu.ps1",
-    "Untitled.md",
     "Journal/The Perfect Battery That's too Dangerous.md",
     "Studies/Physics/Conversion.md",
     "Journal/2025-08-27.md",
